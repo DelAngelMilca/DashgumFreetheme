@@ -1,0 +1,138 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+#main-content{
+	background-color: #D8D8D8;
+	padding: 10px;
+    margin-left: 210px;
+}
+.wrapper {
+	padding-top: 70px;
+	margin: auto;
+}
+
+#container{
+	background-color:#08088A; 
+}
+h5.text-center.fa_inverse {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+h5 {
+	color: white !important;
+}
+.fa.fa-bars.tooltips {
+    color: white;
+    margin-left: 15px;
+}
+.sidebar-toggle-box {
+	float: left;
+	margin: 20px 10px;
+	font-size: 20px;
+}
+.logo {
+	margin: 20px 10px;
+	font-size: 20px;
+	float: left;
+}
+.hidden-xs {
+	
+}
+.visible-xs {
+	
+}
+.top-menu {
+	float: right;
+	margin: 6px 15px;
+}
+.logout {
+	color: white;
+	border-radius: 7px;
+	width: 100%;
+}
+li{
+	color: white;
+	margin-top: 15px;
+}
+.purple{
+	background-color: purple;
+	color: white;	
+	font-size: 12px;
+	text-align: center;
+}
+body{
+	font-size: 12px;
+}
+span.badge.bg-theme {
+    background-color: aqua;
+ }
+ a.logout {
+    background-color: magenta;
+    color: white;
+}
+
+.black-bg {
+    border: 1px solid #610B5E;
+    background-color: #0B1B2E;
+    font-size: 15px;
+    color: white !important;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+ 
+a:hover{
+	background-color: #0B1B2E;
+	color: white !important;
+	text-decoration: none !important; 
+}
+form{
+	border: 1px solid black;
+	padding: 4%;
+	border-radius: 3%;
+}
+.form-login-heading{
+	background-color: #81DAF5;
+	text-transform: uppercase;
+	color: #fff;
+}
+.showback{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 15px;
+}
+.fa-lg{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 15px;
+}
+
+li{
+	list-style: none;
+}
+#sidebar {
+    width: 210px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 70px;
+
+}
+.text-white{
+	color: white;
+}
+.nav-collapse{
+	background-color: #0B1B2E	;
+}
